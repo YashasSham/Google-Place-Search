@@ -1,0 +1,131 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 600px;
+		width: 900px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      #target {
+        width: 345px;
+      }
+	  
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:380px;
+  height:600px;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+  
+  -webkit-overflow-scrolling: touch;
+}
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+h4 {
+  font: italic 12px/0.5 Helvetica, Verdana, sans-serif;
+  color: red;
+  float: right;
+}
+small {
+	font: italic 12px/0.5 Helvetica, Verdana, sans-serif;
+  color: red;
+  text-align:left;
+}
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+li p {
+  font: 200 14px/1.5 Georgia, Times New Roman, serif;
+}
+li {
+	background: #fff;
+  padding: 10px;
+  overflow: auto;
+}
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+#time_toogle {
+    font: italic 13px/0.5 Helvetica, Verdana, sans-serif;
+	color: blue;
+	text-align:left;
+    }
+	
